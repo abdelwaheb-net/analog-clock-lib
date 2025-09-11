@@ -1,0 +1,28 @@
+
+{
+"name": "analog-clock-lib",
+"version": "2.0.0",
+"description": "Lightweight TypeScript library to render an analog clock using HTML Canvas",
+"main": "dist/index.js",
+ "module": "dist/index.js",
+"types": "dist/index.d.ts",
+"scripts": {
+"build": "tsc",
+"build:watch": "tsc -w",
+"clean": "rm -rf dist",
+"prepare": "npm run build"
+},
+  "keywords": ["analog","clock","canvas","typescript","ui"],
+  "author": "AMMAR Abdelwaheb",
+  "license": "MIT",
+  "devDependencies": {
+"typescript": "^5.9.2"
+},
+"files": [
+  "dist",
+  "LICENSE",
+  "README.md"
+]
+
+}
+
