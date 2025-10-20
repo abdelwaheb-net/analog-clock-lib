@@ -242,6 +242,7 @@ ctx.restore();
   destroy() {
 this.stop();
 window.removeEventListener('resize', this.handleWindowResize);
+
 if (this.canvas.parentElement === this.container) {
 this.container.removeChild(this.canvas);
 }
